@@ -60,6 +60,7 @@ namespace Console_calc
             Math math = new Math();
             
             Console.WriteLine( a + " " + input2 + " " + b + " = " + math.MathResult(a, b, input2));
+            Console.ReadLine();
         }
     }
 }
